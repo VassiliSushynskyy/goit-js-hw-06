@@ -8,6 +8,6 @@ function fontSizeModific(event) {
    refs.outputRef.style.fontSize = size + `px`;
     
 };
-
+refs.outputRef.style.fontSize = refs.inputRef.value + 'px';
 
 
